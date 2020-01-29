@@ -42,7 +42,7 @@ export async function PUT(url = '', data = {}) {
     return await response.json(); // parses JSON response into native JavaScript objects
 }
 
-export async function DELETE(url = '', data = {}) {
+export async function REMOVE(url = '', data = {}) {
     // Default options are marked with *
     const response = await fetch(url, {
         method: 'DELETE', // *GET, POST, PUT, DELETE, etc.
