@@ -1,0 +1,8 @@
+{
+  "name": "api-request-json",
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/backend-code/api-request-json.git",
+  "author": "Nutthapat Piasangka <n.devs260340@gmail.com>",
+  "license": "MIT"
+}
