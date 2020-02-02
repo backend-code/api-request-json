@@ -1,6 +1,6 @@
 {
   "name": "api-request-json",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "common/request.js",
   "repository": "https://github.com/backend-code/api-request-json.git",
   "author": "Nutthapat Piasangka <n.devs260340@gmail.com>",
