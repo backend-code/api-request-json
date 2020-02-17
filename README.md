@@ -3,11 +3,11 @@
 ## Installer
 
 ``` javascript
-yarn add api - request - json
+yarn add api-request-json
 
 or
 
-npm i - S api - request - json
+npm i -S api-request-json
 ```
 
 ## Used
