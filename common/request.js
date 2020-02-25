@@ -20,7 +20,11 @@ export async function POST(url = '',mode = '', data = {}) {
 
 export async function GET(url = '') {
     // Default options are marked with *
-    const response = await fetch(url);
+    const response = await fetch(url,{
+        headers : { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+         }});
     return await response.json(); // parses JSON response into native JavaScript objects
 }
 
